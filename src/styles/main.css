@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Bubblegum Sans", cursive;
+  background-color: #f5f5f5;
+}
+
+.joke {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.joke__container {
+  font-size: 5rem;
+}
+.joke__setup {
+  padding-top: 1rem;
+  color: #ffc107;
+}
+.joke__punch {
+  color: #ff9800;
+  padding-top: 1rem;
+  text-align: center;
+}
+.joke__btns {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  font-size: 3rem;
+  padding: 5rem;
+}
+.joke__btns button {
+  height: 4rem;
+  width: 17rem;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  font-family: inherit;
+  cursor: pointer;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #9c27b0;
+  color: #fff;
+}
+.joke__spinner {
+  display: block;
+  height: 12rem;
+  width: 12rem;
+  margin: auto;
+}
+
+.error__msg {
+  font-size: 4rem;
+  color: tomato;
+}
+
+.Favorite h2 {
+  font-size: 4rem;
+  text-decoration: underline;
+}
+.Favorite li {
+  display: flex;
+  align-items: center;
+  font-size: 3rem;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+.Favorite button {
+  height: 4rem;
+  width: 10rem;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  font-family: inherit;
+  cursor: pointer;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #9c27b0;
+  color: #fff;
+}/*# sourceMappingURL=main.css.map */
